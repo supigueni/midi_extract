@@ -3,6 +3,12 @@ Created on 10.02.2019
 
 @author: Gueni
 
+Copyright (c) Christian Binder
+
+Use of this source code is governed by a MIT license that can be
+found in the LICENSE file.
+
+Description:
 converts midi files to a file with a c-array
 this can be used to integrate in a embedded system to feed e.g. a motor with an sine generator
 
