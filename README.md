@@ -30,8 +30,16 @@ Put your midi files in the "in" folder and execute "Midi_extract.py"
     python Midi_extract.py
 Find the output files stored in "out" folder. For detailed information of your conversion see "result.log"
 
+## Maintainer
+
+[Christian Binder](https://github.com/supigueni)
+
+
 ## 3rd party SW
 |Name|License
 |----|-------
 |[python](https://www.python.org/)|[PSF License](https://docs.python.org/3/license.html)
 |[mido](https://pypi.org/project/mido/)|[OSI approved :: MIT License](https://pypi.org/search/?c=License+%3A%3A+OSI+Approved+%3A%3A+MIT+License)
+
+## License
+[MIT License (MIT)](https://github.com/supigueni/midi_extract/blob/master/LICENSE.txt)
