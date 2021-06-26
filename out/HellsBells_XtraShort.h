@@ -1,7 +1,7 @@
-/* created on 2021-06-26 11:26:03.701925    by gueni*/
+/* created on 2021-06-26 22:31:38.465450    by gueni*/
 #define NUM_LENGTH    302
 
-float32 MusicArray][NUM_LENGTH][3]={
+float32 MusicArray[NUM_LENGTH][3] = {
 /*freq,	 velocity,	 time*/
 {0.0F,	0.0F,	0.001F},
 {196.0F,	95.0F,	3.75F},

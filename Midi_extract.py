@@ -77,7 +77,7 @@ def convert_mid_to_text(file_in_path, file_out_path):
         # f.write('/*' + str(mid) + '*/\n\n')
         f.write('#define NUM_LENGTH    ' + str(NumNotes) + '\n\n')
         NumParam = 3  # how much parameters are used
-        f.write('float32 MusicArray' + ']' + '[NUM_LENGTH][' + str(NumParam) + ']={\n')
+        f.write(f'float32 MusicArray[NUM_LENGTH][{NumParam}] = ' + '{\n')
         f.write('/*freq,\t velocity,\t time*/\n')
         i = 0
         for x in buffer:
